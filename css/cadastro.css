@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box sizing: border-box; 
+}
+
+.container{
+    display: flex;
+    margin-left: 20%;
+    gap: 45px;
+    align-items: center;
+}
+
+form{
+    background-color: #ffd2fe;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    border-radius: 10px;
+    gap: 5px;
+}
+
+label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: rgb(226, 24, 176);
+
+}
+
+input, button {
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 10px;
+
+}
+
+button{
+    background-color: #FE68FC;
+    color: aliceblue;
+}
