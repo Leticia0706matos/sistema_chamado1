@@ -1,4 +1,13 @@
-*{
+body {
+    margin: 0;
+    background-color: #f8def8;
+    font-family: Arial, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }*{
     margin: 0;
     padding: 0;
     box sizing: border-box; 
@@ -12,7 +21,7 @@
 }
 
 form{
-    background-color: #faa1f8;
+    background-color: #df61eb;
     display: flex;
     flex-direction: column;
     padding: 40px;
@@ -36,6 +45,7 @@ input, button {
 }
 
 button{
-    background-color: #db43d9;
+    background-color:  rgb(150, 1, 110);
+
     color: rgb(243, 240, 255);
 }
