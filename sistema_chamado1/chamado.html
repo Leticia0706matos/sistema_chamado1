@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Novo Chamado</title>
+  <link rel="stylesheet" href="css/chamado.css" />
+</head>
+<body>
+  <header>
+    <div class="logo"></div>
+    <nav>
+      <a href="#">HOME</a>
+      <a href="#">CHAMADOS</a>
+      <a href="#">REGISTROS</a>
+      <a href="#">SAIR</a>
+    </nav>
+  </header>
+ 
+  <main>
+    <div class="form-container">
+      <h2>NOVO CHAMADO</h2>
+     
+      <label for="cliente">CLIENTE</label>
+      <input type="text" id="cliente" class="input" />
+ 
+      <label>CATEGORIA</label>
+      <div class="categoria">
+        <label><input type="radio" name="categoria" /> ABERTO</label>
+        <label><input type="radio" name="categoria" /> EM ATENDIMENTO</label>
+        <label><input type="radio" name="categoria" /> FECHADO</label>
+      </div>
+ 
+      <label for="assunto">ASSUNTO</label>
+      <input type="text" id="assunto" class="input" />
+ 
+      <label for="descricao">DESCRIÇÃO</label>
+      <textarea id="descricao"></textarea>
+ 
+      <div class="buttons">
+        <button class="btn" onclick="window.location.href='home.html'">Retornar</button>
+        <button class="btn success">Concluir Chamado</button>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
+ 
