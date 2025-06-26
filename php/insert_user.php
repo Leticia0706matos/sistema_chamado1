@@ -7,5 +7,6 @@ $insert = "INSERT INTO tb_user VALUES (null, 'Jose', 'ze@gmail.com', 'secretaria
 $query = $conexao->query($insert);
 
 if ($conexao->query($insert)){
-    echo "<script>alert ('usuário cadastro com sucesso!')" location.href = '..'
+    echo "<script>alert ('usuário cadastro com sucesso!') </script>";
+
 }
